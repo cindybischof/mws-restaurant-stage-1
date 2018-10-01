@@ -181,7 +181,6 @@ createRestaurantHTML = (restaurant) => {
     const url = DBHelper.urlForRestaurant(restaurant);
     window.location = url;
   }
-  more.tabIndex="4";
   li.append(more)
 
   return li
