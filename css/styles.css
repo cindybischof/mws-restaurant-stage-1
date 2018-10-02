@@ -305,9 +305,9 @@ nav h1 a {
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
-  overflow: hidden;
+  overflow: scroll;
   padding: 10px 20px 10px;
-  position: relative;
+  position: absolute;
   width: 85%;
 }
 #reviews-list li p {
